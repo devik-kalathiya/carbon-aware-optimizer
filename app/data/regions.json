@@ -1,0 +1,32 @@
+{
+    "us-central1": {
+        "country": "USA",
+        "carbon_intensity": 350,
+        "electricity_price": 10
+    },
+    "us-east1": {
+        "country": "USA",
+        "carbon_intensity": 400,
+        "electricity_price": 11
+    },
+    "us-west1": {
+        "country": "USA",
+        "carbon_intensity": 250,
+        "electricity_price": 9
+    },
+    "asia-south1": {
+        "country": "India",
+        "carbon_intensity": 650,
+        "electricity_price": 8
+    },
+    "asia-southeast1": {
+        "country": "Singapore",
+        "carbon_intensity": 480,
+        "electricity_price": 14
+    },
+    "ap-northeast-1": {
+        "country": "Japan",
+        "carbon_intensity": 430,
+        "electricity_price": 15
+    }
+}

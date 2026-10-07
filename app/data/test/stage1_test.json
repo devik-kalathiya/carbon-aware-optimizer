@@ -1,0 +1,38 @@
+{
+    "dc_1": {
+        "id": "dc_1",
+        "provider": "test",
+        "region": "test-region-1",
+        "zoneKey": "TEST-1",
+        "status": "operational",
+        "carbon_intensity": 650,
+        "electricity_price": 10,
+        "latency_ms": 80,
+        "renewable_pct": 20,
+        "capacity": 100
+    },
+    "dc_2": {
+        "id": "dc_2",
+        "provider": "test",
+        "region": "test-region-2",
+        "zoneKey": "TEST-2",
+        "status": "operational",
+        "carbon_intensity": 250,
+        "electricity_price": 12,
+        "latency_ms": 40,
+        "renewable_pct": 70,
+        "capacity": 100
+    },
+    "dc_3": {
+        "id": "dc_3",
+        "provider": "test",
+        "region": "test-region-3",
+        "zoneKey": "TEST-3",
+        "status": "operational",
+        "carbon_intensity": 400,
+        "electricity_price": 8,
+        "latency_ms": 60,
+        "renewable_pct": 50,
+        "capacity": 100
+    }
+}

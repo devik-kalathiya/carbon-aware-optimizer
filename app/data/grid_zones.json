@@ -1,0 +1,532 @@
+{
+    "AE": {
+        "zoneKey": "AE",
+        "country": "United Arab Emirates",
+        "carbon_intensity": 450,
+        "electricity_price": 8.0,
+        "renewable_pct": 5,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "AU-NSW": {
+        "zoneKey": "AU-NSW",
+        "country": "Australia",
+        "carbon_intensity": 610,
+        "electricity_price": 4.0,
+        "renewable_pct": 32,
+        "source": "EPA NSW; AEMO QED Q1 2026",
+        "source_url": "https://www.epa.nsw.gov.au/Your-environment/Climate-change/Firming-infrastructure/Greenhouse-gas-emissions-intensity-of-the-NSW-electricity-grid; https://www.aemo.com.au/-/media/files/major-publications/qed/2026/qed-q1-2026.pdf",
+        "last_updated": "2026-03-16"
+    },
+    "AU-VIC": {
+        "zoneKey": "AU-VIC",
+        "country": "Australia",
+        "carbon_intensity": 810,
+        "electricity_price": 25.0,
+        "renewable_pct": 28,
+        "source": "Australian Government DCCEEW via NGER (2024/25 residual mix factor); Climatiq; Clean Energy Regulator electricity sector data 2023–24",
+        "source_url": "https://www.climatiq.io/data/emission-factor/3f045f10-c643-4611-b09a-c761af336384",
+        "last_updated": "2024"
+    },
+    "BE": {
+        "zoneKey": "BE",
+        "country": "Belgium",
+        "carbon_intensity": 145,
+        "electricity_price": 8.8,
+        "renewable_pct": 34,
+        "source": "Belgian Grid Emission Factors Report (Attia 2026)",
+        "source_url": "https://orbi.uliege.be/bitstream/2268/345758/1/Belgian_Grid_EF_1950_2050_Attia2026_v04.pdf",
+        "last_updated": "2026-09-05"
+    },
+    "BH": {
+        "zoneKey": "BH",
+        "country": "Bahrain",
+        "carbon_intensity": 480,
+        "electricity_price": 5.0,
+        "renewable_pct": 2,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "BR-CS": {
+        "zoneKey": "BR-CS",
+        "country": "Brazil",
+        "carbon_intensity": 90,
+        "electricity_price": 60.0,
+        "renewable_pct": 80,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "CA-AB": {
+        "zoneKey": "CA-AB",
+        "country": "Canada",
+        "carbon_intensity": 550,
+        "electricity_price": 12.0,
+        "renewable_pct": 15,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/provincial-territorial-energy-profiles/provincial-territorial-energy-profiles-alberta.html",
+        "last_updated": null
+    },
+    "CA-ON": {
+        "zoneKey": "CA-ON",
+        "country": "Canada",
+        "carbon_intensity": 53,
+        "electricity_price": 4.37,
+        "renewable_pct": 35,
+        "source": "Canada Energy Regulator (CER), Ontario Energy Snapshot, IESO",
+        "source_url": "https://rec-cer.gc.ca/en/data-analysis/energy-markets/renewable-energy-canada/provinces/renewable-power-canada-ontario.html, https://www.ontario.ca/page/ontario-energy-snapshot, https://www.ieso.ca/power-data/price-overview/ontario-market-prices",
+        "last_updated": "2026-07-31"
+    },
+    "CA-QC": {
+        "zoneKey": "CA-QC",
+        "country": "Canada",
+        "carbon_intensity": 30,
+        "electricity_price": 7.0,
+        "renewable_pct": 95,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/provincial-territorial-energy-profiles/provincial-territorial-energy-profiles-quebec.html",
+        "last_updated": null
+    },
+    "CH": {
+        "zoneKey": "CH",
+        "country": "Switzerland",
+        "carbon_intensity": 59,
+        "electricity_price": 20.0,
+        "renewable_pct": 60,
+        "source": "VSE (Verband Schweizerischer Elektrizitätsunternehmen) / Swissgrid / BFE",
+        "source_url": "https://www.strom.ch/de/media/15408/download",
+        "last_updated": "2024"
+    },
+    "CL-SEN": {
+        "zoneKey": "CL-SEN",
+        "country": "Chile",
+        "carbon_intensity": 350,
+        "electricity_price": 15.0,
+        "renewable_pct": 45,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "CN": {
+        "zoneKey": "CN",
+        "country": "China",
+        "carbon_intensity": 530.6,
+        "electricity_price": 8.0,
+        "renewable_pct": 32.73,
+        "source": "Ministry of Ecology and Environment of China (MEE), GlobalPetrolPrices.com, US Energy Information Administration",
+        "source_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202512/W020251231726284332528.pdf",
+        "last_updated": "2026-09-05"
+    },
+    "DE": {
+        "zoneKey": "DE",
+        "country": "Germany",
+        "carbon_intensity": 363,
+        "electricity_price": 30.0,
+        "renewable_pct": 66.4,
+        "source": "Umweltbundesamt (Environmental Agency Germany), BDEW, SMARD",
+        "source_url": "https://www.umweltbundesamt.de/system/files/medien/11850/publikationen/13_2025_cc.pdf",
+        "last_updated": "2026-09-05"
+    },
+    "ES": {
+        "zoneKey": "ES",
+        "country": "Spain",
+        "carbon_intensity": 190,
+        "electricity_price": 23.5,
+        "renewable_pct": 56.6,
+        "source": "REE (Red Eléctrica de España) - Nacional de Electricidad, Inventario Nacional de GEI 2018, GlobalPetrolPrices.com",
+        "source_url": "https://www.ree.es/sites/default/files/2026-03/1103_NP_ISE_2025.pdf",
+        "last_updated": "2026-03-31"
+    },
+    "FI": {
+        "zoneKey": "FI",
+        "country": "Finland",
+        "carbon_intensity": 90,
+        "electricity_price": 10.0,
+        "renewable_pct": 55,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "FR": {
+        "zoneKey": "FR",
+        "country": "France",
+        "carbon_intensity": 60,
+        "electricity_price": 20.0,
+        "renewable_pct": 25,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "GB": {
+        "zoneKey": "GB",
+        "country": "United Kingdom",
+        "carbon_intensity": 180,
+        "electricity_price": 25.0,
+        "renewable_pct": 45,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://carbonintensity.org.uk",
+        "last_updated": null
+    },
+    "HK": {
+        "zoneKey": "HK",
+        "country": "Hong Kong",
+        "carbon_intensity": 600,
+        "electricity_price": 15.0,
+        "renewable_pct": 5,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "ID": {
+        "zoneKey": "ID",
+        "country": "Indonesia",
+        "carbon_intensity": 700,
+        "electricity_price": 8.0,
+        "renewable_pct": 15,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "IE": {
+        "zoneKey": "IE",
+        "country": "Ireland",
+        "carbon_intensity": 300,
+        "electricity_price": 28.0,
+        "renewable_pct": 40,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "IL": {
+        "zoneKey": "IL",
+        "country": "Israel",
+        "carbon_intensity": 500,
+        "electricity_price": 15.0,
+        "renewable_pct": 12,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "IN-NO": {
+        "zoneKey": "IN-NO",
+        "country": "India",
+        "carbon_intensity": 700,
+        "electricity_price": 6.0,
+        "renewable_pct": 20,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://cea.nic.in/cdm-co2-baseline-database/?lang=en",
+        "last_updated": null
+    },
+    "IN-SO": {
+        "zoneKey": "IN-SO",
+        "country": "India",
+        "carbon_intensity": 600,
+        "electricity_price": 6.0,
+        "renewable_pct": 30,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://cea.nic.in/cdm-co2-baseline-database/?lang=en",
+        "last_updated": null
+    },
+    "IN-WE": {
+        "zoneKey": "IN-WE",
+        "country": "India",
+        "carbon_intensity": 650,
+        "electricity_price": 7.0,
+        "renewable_pct": 25,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://cea.nic.in/cdm-co2-baseline-database/?lang=en",
+        "last_updated": null
+    },
+    "IT-NO": {
+        "zoneKey": "IT-NO",
+        "country": "Italy",
+        "carbon_intensity": 300,
+        "electricity_price": 25.0,
+        "renewable_pct": 35,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "JP-KN": {
+        "zoneKey": "JP-KN",
+        "country": "Japan",
+        "carbon_intensity": 450,
+        "electricity_price": 25.0,
+        "renewable_pct": 20,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "JP-TK": {
+        "zoneKey": "JP-TK",
+        "country": "Japan",
+        "carbon_intensity": 480,
+        "electricity_price": 26.0,
+        "renewable_pct": 18,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "KR": {
+        "zoneKey": "KR",
+        "country": "South Korea",
+        "carbon_intensity": 430,
+        "electricity_price": 12.0,
+        "renewable_pct": 9,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "MX": {
+        "zoneKey": "MX",
+        "country": "Mexico",
+        "carbon_intensity": 420,
+        "electricity_price": 9.0,
+        "renewable_pct": 22,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "MY-WM": {
+        "zoneKey": "MY-WM",
+        "country": "Malaysia",
+        "carbon_intensity": 550,
+        "electricity_price": 8.0,
+        "renewable_pct": 18,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "NL": {
+        "zoneKey": "NL",
+        "country": "Netherlands",
+        "carbon_intensity": 320,
+        "electricity_price": 25.0,
+        "renewable_pct": 40,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "NO-NO1": {
+        "zoneKey": "NO-NO1",
+        "country": "Norway",
+        "carbon_intensity": 20,
+        "electricity_price": 8.0,
+        "renewable_pct": 98,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "NO-NO2": {
+        "zoneKey": "NO-NO2",
+        "country": "Norway",
+        "carbon_intensity": 15,
+        "electricity_price": 7.0,
+        "renewable_pct": 99,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "NZ": {
+        "zoneKey": "NZ",
+        "country": "New Zealand",
+        "carbon_intensity": 100,
+        "electricity_price": 20.0,
+        "renewable_pct": 85,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "PL": {
+        "zoneKey": "PL",
+        "country": "Poland",
+        "carbon_intensity": 650,
+        "electricity_price": 20.0,
+        "renewable_pct": 20,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "QA": {
+        "zoneKey": "QA",
+        "country": "Qatar",
+        "carbon_intensity": 480,
+        "electricity_price": 6.0,
+        "renewable_pct": 1,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "SA": {
+        "zoneKey": "SA",
+        "country": "Saudi Arabia",
+        "carbon_intensity": 600,
+        "electricity_price": 5.0,
+        "renewable_pct": 3,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "SE-SE3": {
+        "zoneKey": "SE-SE3",
+        "country": "Sweden",
+        "carbon_intensity": 40,
+        "electricity_price": 10.0,
+        "renewable_pct": 70,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "SG": {
+        "zoneKey": "SG",
+        "country": "Singapore",
+        "carbon_intensity": 400,
+        "electricity_price": 22.0,
+        "renewable_pct": 5,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "TH": {
+        "zoneKey": "TH",
+        "country": "Thailand",
+        "carbon_intensity": 450,
+        "electricity_price": 11.0,
+        "renewable_pct": 15,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "TW": {
+        "zoneKey": "TW",
+        "country": "Taiwan",
+        "carbon_intensity": 500,
+        "electricity_price": 9.0,
+        "renewable_pct": 12,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    },
+    "US-CAL-CISO": {
+        "zoneKey": "US-CAL-CISO",
+        "country": "United States",
+        "carbon_intensity": 200,
+        "electricity_price": 20.0,
+        "renewable_pct": 45,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48",
+        "last_updated": null
+    },
+    "US-CAR-SCEG": {
+        "zoneKey": "US-CAR-SCEG",
+        "country": "United States",
+        "carbon_intensity": 350,
+        "electricity_price": 12.0,
+        "renewable_pct": 15,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48",
+        "last_updated": null
+    },
+    "US-CENT-SWPP": {
+        "zoneKey": "US-CENT-SWPP",
+        "country": "United States",
+        "carbon_intensity": 450,
+        "electricity_price": 10.0,
+        "renewable_pct": 35,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48",
+        "last_updated": null
+    },
+    "US-MIDA-PJM": {
+        "zoneKey": "US-MIDA-PJM",
+        "country": "United States",
+        "carbon_intensity": 380,
+        "electricity_price": 13.0,
+        "renewable_pct": 20,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48",
+        "last_updated": null
+    },
+    "US-MIDW-MISO": {
+        "zoneKey": "US-MIDW-MISO",
+        "country": "United States",
+        "carbon_intensity": 500,
+        "electricity_price": 10.0,
+        "renewable_pct": 25,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48",
+        "last_updated": null
+    },
+    "US-NW-BPAT": {
+        "zoneKey": "US-NW-BPAT",
+        "country": "United States",
+        "carbon_intensity": 90,
+        "electricity_price": 8.0,
+        "renewable_pct": 75,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48",
+        "last_updated": null
+    },
+    "US-NW-NEVP": {
+        "zoneKey": "US-NW-NEVP",
+        "country": "United States",
+        "carbon_intensity": 350,
+        "electricity_price": 11.0,
+        "renewable_pct": 25,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48",
+        "last_updated": null
+    },
+    "US-NW-PACE": {
+        "zoneKey": "US-NW-PACE",
+        "country": "United States",
+        "carbon_intensity": 500,
+        "electricity_price": 10.0,
+        "renewable_pct": 25,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48",
+        "last_updated": null
+    },
+    "US-NW-PACW": {
+        "zoneKey": "US-NW-PACW",
+        "country": "United States",
+        "carbon_intensity": 300,
+        "electricity_price": 10.0,
+        "renewable_pct": 40,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48",
+        "last_updated": null
+    },
+    "US-SW-AZPS": {
+        "zoneKey": "US-SW-AZPS",
+        "country": "United States",
+        "carbon_intensity": 400,
+        "electricity_price": 12.0,
+        "renewable_pct": 15,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48",
+        "last_updated": null
+    },
+    "US-TEX-ERCO": {
+        "zoneKey": "US-TEX-ERCO",
+        "country": "United States",
+        "carbon_intensity": 380,
+        "electricity_price": 11.0,
+        "renewable_pct": 30,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48",
+        "last_updated": null
+    },
+    "ZA": {
+        "zoneKey": "ZA",
+        "country": "South Africa",
+        "carbon_intensity": 850,
+        "electricity_price": 8.0,
+        "renewable_pct": 8,
+        "source": "Estimated simulation value — cross-check at source_url for verified figures",
+        "source_url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "last_updated": null
+    }
+}
