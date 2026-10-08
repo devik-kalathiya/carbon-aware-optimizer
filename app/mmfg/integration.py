@@ -1,5 +1,5 @@
-from mmfg.mean_field import calculate_equilibrium
-from mmfg.attractiveness import calculate_attractiveness
+from app.mmfg.mean_field import calculate_equilibrium
+from app.mmfg.attractiveness import calculate_attractiveness
 
 
 def create_zone_population(datacenters):

@@ -1,4 +1,4 @@
-from mmfg.mean_field import WORKLOAD_CLASSES
+from app.mmfg.mean_field import WORKLOAD_CLASSES
 
 
 class Workload:

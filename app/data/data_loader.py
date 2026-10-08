@@ -33,7 +33,7 @@ def get_operational_datacenters():
         if datacenter["status"] == "operational"
     ]
 def get_datacenters_with_carbon_data():
-    from data.grid_zone_loader import load_grid_zones
+    from app.data.grid_zone_loader import load_grid_zones
 
     datacenters = get_operational_datacenters()
     grid_zones = load_grid_zones()

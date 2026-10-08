@@ -1,4 +1,4 @@
-from optimizer.scheduler import recommend_region
+from app.optimizer.scheduler import recommend_region
 
 
 def generate_scenarios(
