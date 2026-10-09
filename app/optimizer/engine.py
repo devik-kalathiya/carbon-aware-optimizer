@@ -2,7 +2,7 @@ from app.calculations.energy import calculate_energy
 from app.data.data_loader import get_datacenters_with_carbon_data
 from app.data.grid_zone_loader import load_grid_zones
 from app.models.workload import create_workload
-from app.optimizer.scheduler import recommend_region
+from app.optimizer.scheduler import recommend_region, score_regions
 from app.mmfg.integration import run_mmfg_routing
 from app.uncertainty.robust import (
     evaluate_robust_scenarios,
@@ -24,7 +24,7 @@ def run_optimization(
     latency_max_ms=None,
     budget=None,
     workload_demand=None
-):
+    ):
     weights = {
         "carbon": 0.40,
         "cost": 0.20,
@@ -142,6 +142,20 @@ def run_optimization(
     elif robust_dc_id:
         optimized_id = robust_dc_id
 
+    # Respect user constraints: final pick must be feasible
+    feasible_ids = {
+        r["id"] for r in score_regions(
+            datacenters,
+            energy_kwh=energy,
+            weights=weights,
+            latency_max_ms=workload.latency_max_ms,
+            budget=workload.budget,
+            workload_demand=workload.workload_demand
+        )
+    }
+
+    if feasible_ids and optimized_id not in feasible_ids:
+        optimized_id = best_region_id
     # Make sure optimized ID exists
     candidate_ids = [
         dc["id"] for dc in candidate_datacenters
