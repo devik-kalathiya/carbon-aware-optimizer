@@ -8,7 +8,7 @@ from datetime import datetime
 
 import streamlit as st
 
-from optimizer.scheduler import recommend_region
+from optimizer.scheduler import recommend_region, score_regions
 
 from data.data_loader import get_datacenters_with_carbon_data
 from data.grid_zone_loader import load_grid_zones
@@ -425,6 +425,22 @@ if run_button:
         else:
 
             optimized_id = mmfg_dc["id"]
+
+
+        # Respect user constraints: final pick must be feasible
+        feasible_ids = {
+            r["id"] for r in score_regions(
+                datacenters,
+                energy_kwh=energy,
+                weights=weights,
+                latency_max_ms=workload.latency_max_ms,
+                budget=workload.budget,
+                workload_demand=workload.workload_demand
+            )
+        }
+
+        if feasible_ids and optimized_id not in feasible_ids:
+            optimized_id = stage1_id
 
 
         optimized_allocations = {
