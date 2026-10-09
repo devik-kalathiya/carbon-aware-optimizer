@@ -79,3 +79,4 @@ watchdog==6.0.0
 websockets==15.0.1
 xai-sdk==1.19.0
 yarl==1.24.5
+fastapi==0.142.4

@@ -40,3 +40,6 @@ def optimize(request: OptimizationRequest):
     )
 
     return result
+@app.get("/health")
+def health():
+    return {"status": "ok"}

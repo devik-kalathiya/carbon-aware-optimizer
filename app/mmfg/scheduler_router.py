@@ -2,7 +2,7 @@
 # MMFG - Scheduler Router
 # ============================================================
 
-from mmfg.mean_field import calculate_equilibrium
+from app.mmfg.mean_field import calculate_equilibrium
 
 
 def calculate_mmfg_routing(
