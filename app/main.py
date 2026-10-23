@@ -672,10 +672,17 @@ if run_button:
             "timestamp":
                 datetime.now().isoformat()
         }
-
-        save_optimization_run(
+        try:
+            save_optimization_run(
             st.session_state.optimization_result
         )
+            st.success("Optimization results saved successfully.")
+        except Exception as e:
+            st.warning(
+                "Optimization completed, but saving results failed. "
+                "Please check the database connection."
+            )
+            print(f"Database save error: {type(e).__name__}: {e}")
 
 
 # ============================================================
